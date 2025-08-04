@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T08:46:59 IST" name="Default suite" finished-at="2025-07-26T08:47:21 IST" duration-ms="21910">
+    <groups>
+    </groups>
+    <test started-at="2025-07-26T08:46:59 IST" name="Default test" finished-at="2025-07-26T08:47:21 IST" duration-ms="21910">
+      <class name="Java.WaseemMavenThree.StandAloneTest">
+        <test-method signature="StandAlone()[pri:0, instance:Java.WaseemMavenThree.StandAloneTest@2cd76f31]" started-at="2025-07-26T08:46:59 IST" name="StandAlone" finished-at="2025-07-26T08:47:21 IST" duration-ms="21860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAlone -->
+      </class> <!-- Java.WaseemMavenThree.StandAloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
