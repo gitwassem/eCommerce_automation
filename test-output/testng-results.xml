@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-26T08:46:59 IST" name="Default suite" finished-at="2025-07-26T08:47:21 IST" duration-ms="21910">
+  <suite started-at="2025-08-25T12:08:00 IST" name="Suite" finished-at="2025-08-25T12:08:34 IST" duration-ms="34161">
     <groups>
     </groups>
-    <test started-at="2025-07-26T08:46:59 IST" name="Default test" finished-at="2025-07-26T08:47:21 IST" duration-ms="21910">
+    <test started-at="2025-08-25T12:08:00 IST" name="Test" finished-at="2025-08-25T12:08:34 IST" duration-ms="34161">
       <class name="Java.WaseemMavenThree.StandAloneTest">
-        <test-method signature="StandAlone()[pri:0, instance:Java.WaseemMavenThree.StandAloneTest@2cd76f31]" started-at="2025-07-26T08:46:59 IST" name="StandAlone" finished-at="2025-07-26T08:47:21 IST" duration-ms="21860" status="PASS">
+        <test-method signature="StandAlone()[pri:0, instance:Java.WaseemMavenThree.StandAloneTest@24269709]" started-at="2025-08-25T12:08:13 IST" name="StandAlone" finished-at="2025-08-25T12:08:34 IST" duration-ms="20980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StandAlone -->
       </class> <!-- Java.WaseemMavenThree.StandAloneTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Java.WaseemMavenThree.RegisterTest">
+        <test-method signature="RegisterUser()[pri:0, instance:Java.WaseemMavenThree.RegisterTest@49438269]" started-at="2025-08-25T12:08:00 IST" name="RegisterUser" finished-at="2025-08-25T12:08:13 IST" duration-ms="13122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+      </class> <!-- Java.WaseemMavenThree.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

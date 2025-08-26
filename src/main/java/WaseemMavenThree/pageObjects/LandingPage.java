@@ -27,11 +27,19 @@ public class LandingPage extends AbstractComponent {
 		@FindBy(id="login")
 		WebElement submit;
 		
+		@FindBy(className="text-reset")
+		WebElement RegisterHere;
+		
 		public void loginApplication(String userid, String passwordone)
 		{
 			Email.sendKeys(userid);
 			Password.sendKeys(passwordone);
 			submit.click();
+		}
+		
+		public void registerApplication()
+		{
+			RegisterHere.click();
 		}
 		
 		public void goTo()
