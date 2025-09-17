@@ -27,8 +27,11 @@ public class BaseTest {
 		
 		if (browserName.equalsIgnoreCase("edge"))
 		{
-		WebDriverManager.edgedriver().setup();
-		driver = new EdgeDriver();	
+		//WebDriverManager.edgedriver().setup();
+		//driver = new EdgeDriver();
+		System.setProperty("webdriver.edge.driver", "C:\\selenium\\edgedriver_win32\\msedgedriver.exe");
+	    driver = new EdgeDriver();
+			
 		
 		
 		}
