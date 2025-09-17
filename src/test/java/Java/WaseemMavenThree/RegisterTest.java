@@ -35,7 +35,7 @@ public class RegisterTest extends BaseTest{
 		landing.goTo();
 		landing.registerApplication();
 		RegisterPage register = new RegisterPage(driver);
-		register.fillForm("Test", "Three", "testuser@three.com", "9890960001", "Test@123", "Test@123", "Student");
+		register.fillForm("Test", "Three", "testuser@six.com", "9890960001", "Test@123", "Test@123", "Student");
 		
 		Thread.sleep(2000);
 		driver.quit();
